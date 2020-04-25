@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://menu_title.png" type="Texture" id=1]
 [ext_resource path="res://menu_see ess.png" type="Texture" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://menu_start.png" type="Texture" id=4]
 [ext_resource path="res://menu_exit.png" type="Texture" id=5]
 [ext_resource path="res://menu_scenario select.png" type="Texture" id=6]
+[ext_resource path="res://start.gd" type="Script" id=7]
 
 [sub_resource type="GDScript" id=1]
 script/source = "extends Button
@@ -71,6 +72,7 @@ margin_right = 500.0
 margin_bottom = 169.0
 icon = ExtResource( 4 )
 flat = true
+script = ExtResource( 7 )
 
 [node name="scenarioSelect" type="Button" parent="HBoxContainer/VBoxContainer/VBoxContainer"]
 margin_top = 173.0
@@ -98,4 +100,5 @@ margin_left = 504.0
 margin_right = 1004.0
 margin_bottom = 560.0
 texture = ExtResource( 3 )
+[connection signal="pressed" from="HBoxContainer/VBoxContainer/VBoxContainer/start" to="HBoxContainer/VBoxContainer/VBoxContainer/start" method="_on_start_pressed"]
 [connection signal="pressed" from="HBoxContainer/VBoxContainer/VBoxContainer/exit" to="HBoxContainer/VBoxContainer/VBoxContainer/exit" method="_on_exit_pressed"]

@@ -35,9 +35,5 @@ func _ready():
 	}
 	
 
-	#set children as MOUSE_FILTER_IGNORE
-	for n in get_children():
-		if "mouse_filter" in n:
-			n.mouse_filter = MOUSE_FILTER_IGNORE
 
 

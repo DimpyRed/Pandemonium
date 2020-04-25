@@ -13,7 +13,7 @@ func get_drag_data(_pos):
 		cr.color = color
 		cr.rect_size = Vector2(50, 50)
 		set_drag_preview(cr)
-		set_frame_color(Color(0, 0, 0, 0)) #sets dragged piece to opaque
+		set_frame_color(Color(0, 0, 0, 0)) #sets pos of dragged piece to opaque
 		return cr.color
 
 

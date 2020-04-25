@@ -181,26 +181,26 @@ __meta__ = {
 }
 
 [node name="Control" type="Control" parent="."]
-margin_left = 319.927
+margin_left = 321.219
 margin_top = 28.3626
-margin_right = 976.927
+margin_right = 978.219
 margin_bottom = 705.363
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="red1" type="ColorRect" parent="Control"]
+[node name="pos(1,1)" type="ColorRect" parent="Control"]
 margin_left = 305.177
-margin_top = 85.1026
+margin_top = 86.1026
 margin_right = 345.177
-margin_bottom = 125.103
+margin_bottom = 126.103
 color = Color( 1, 0, 0, 1 )
 script = ExtResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="red2" type="ColorRect" parent="Control"]
+[node name="pos(1,2)" type="ColorRect" parent="Control"]
 margin_left = 368.195
 margin_top = 214.54
 margin_right = 408.195
@@ -211,29 +211,18 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="red3" type="ColorRect" parent="Control"]
-margin_left = 238.86
-margin_top = 213.137
-margin_right = 278.86
-margin_bottom = 253.137
-color = Color( 1, 0, 0, 1 )
+[node name="pos(1,3)" type="ColorRect" parent="Control"]
+margin_left = 433.562
+margin_top = 340.996
+margin_right = 473.562
+margin_bottom = 380.996
+color = Color( 0, 0, 0, 0 )
 script = ExtResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="green1" type="ColorRect" parent="Control"]
-margin_left = 563.877
-margin_top = 597.415
-margin_right = 603.877
-margin_bottom = 637.415
-color = Color( 0, 1, 0, 1 )
-script = ExtResource( 5 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="green2" type="ColorRect" parent="Control"]
+[node name="pos(1,4)" type="ColorRect" parent="Control"]
 margin_left = 495.915
 margin_top = 466.34
 margin_right = 535.915
@@ -244,7 +233,51 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="green3" type="ColorRect" parent="Control"]
+[node name="pos(1,5)" type="ColorRect" parent="Control"]
+margin_left = 563.877
+margin_top = 597.415
+margin_right = 603.877
+margin_bottom = 637.415
+color = Color( 0, 1, 0, 1 )
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pos(2,2)" type="ColorRect" parent="Control"]
+margin_left = 238.86
+margin_top = 213.137
+margin_right = 278.86
+margin_bottom = 253.137
+color = Color( 1, 0, 0, 1 )
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pos(2,3)" type="ColorRect" parent="Control"]
+margin_left = 303.883
+margin_top = 340.12
+margin_right = 343.883
+margin_bottom = 380.12
+color = Color( 0, 0, 0, 0 )
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pos(2,4)" type="ColorRect" parent="Control"]
+margin_left = 370.453
+margin_top = 468.222
+margin_right = 410.453
+margin_bottom = 508.222
+color = Color( 0, 0, 0, 0 )
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pos(2,5)" type="ColorRect" parent="Control"]
 margin_left = 431.579
 margin_top = 597.415
 margin_right = 471.579
@@ -256,84 +289,7 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="blue3" type="ColorRect" parent="Control"]
-margin_left = 175.01
-margin_top = 596.269
-margin_right = 215.01
-margin_bottom = 636.269
-color = Color( 0, 0, 1, 1 )
-script = ExtResource( 5 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="blue1" type="ColorRect" parent="Control"]
-margin_left = 113.982
-margin_top = 467.844
-margin_right = 153.982
-margin_bottom = 507.844
-color = Color( 0, 0, 1, 1 )
-script = ExtResource( 5 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="blue2" type="ColorRect" parent="Control"]
-margin_left = 47.4996
-margin_top = 596.521
-margin_right = 87.4996
-margin_bottom = 636.521
-color = Color( 0, 0, 1, 1 )
-script = ExtResource( 5 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="opaque1" type="ColorRect" parent="Control"]
-margin_left = 305.263
-margin_top = 597.561
-margin_right = 345.263
-margin_bottom = 637.561
-color = Color( 0, 0, 0, 0 )
-script = ExtResource( 5 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="opaque2" type="ColorRect" parent="Control"]
-margin_left = 370.453
-margin_top = 468.222
-margin_right = 410.453
-margin_bottom = 508.222
-color = Color( 0, 0, 0, 0 )
-script = ExtResource( 5 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="opaque3" type="ColorRect" parent="Control"]
-margin_left = 433.562
-margin_top = 340.996
-margin_right = 473.562
-margin_bottom = 380.996
-color = Color( 0, 0, 0, 0 )
-script = ExtResource( 5 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="opaque4" type="ColorRect" parent="Control"]
-margin_left = 303.883
-margin_top = 340.12
-margin_right = 343.883
-margin_bottom = 380.12
-color = Color( 0, 0, 0, 0 )
-script = ExtResource( 5 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="opaque5" type="ColorRect" parent="Control"]
+[node name="pos(3,1)" type="ColorRect" parent="Control"]
 margin_left = 176.964
 margin_top = 340.964
 margin_right = 216.964
@@ -344,12 +300,56 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="opaque6" type="ColorRect" parent="Control"]
+[node name="pos(3,2)" type="ColorRect" parent="Control"]
 margin_left = 240.29
 margin_top = 470.199
 margin_right = 280.29
 margin_bottom = 510.199
 color = Color( 0, 0, 0, 0 )
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pos(3,3)" type="ColorRect" parent="Control"]
+margin_left = 305.263
+margin_top = 597.561
+margin_right = 345.263
+margin_bottom = 637.561
+color = Color( 0, 0, 0, 0 )
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pos(4,1)" type="ColorRect" parent="Control"]
+margin_left = 113.982
+margin_top = 467.844
+margin_right = 153.982
+margin_bottom = 507.844
+color = Color( 0, 0, 1, 1 )
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pos(4,2)" type="ColorRect" parent="Control"]
+margin_left = 175.01
+margin_top = 596.269
+margin_right = 215.01
+margin_bottom = 636.269
+color = Color( 0, 0, 1, 1 )
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pos(5,1)" type="ColorRect" parent="Control"]
+margin_left = 47.4996
+margin_top = 596.521
+margin_right = 87.4996
+margin_bottom = 636.521
+color = Color( 0, 0, 1, 1 )
 script = ExtResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false

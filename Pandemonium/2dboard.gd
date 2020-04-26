@@ -6,4 +6,4 @@ func _ready():
 
 
 func _on_touch_pressed():
-	pass # Replace with function body.
+	pass
